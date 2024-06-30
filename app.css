@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.mainPage {
+    background-image: url('https://media1.popsugar-assets.com/files/2021/01/14/843/n/1922507/dfbee3f80679e82a_lucian-dachman-qxO2PBn7eKU-unsplash/i/Snowy-Mountain-Zoom-Background.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navHeader img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu ul {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    list-style: none;
+}
+
+.menu ul li a {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.titleText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -90%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+}
+
+.titleText h1 {
+    padding: 0;
+    margin: 0;
+}
